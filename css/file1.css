@@ -1,0 +1,85 @@
+/* Cascading and Specificity */
+main h1{
+    color: cadetblue;
+    color: tomato;
+    color: fuchsia;
+
+}
+
+body main h1{
+    color: blue;
+    color: red;
+}
+
+body > h1{
+    color: darkgreen;
+}
+
+p{
+    background-color: aqua;
+}
+
+/* this select the sibling immediatly after the parents */
+h2 + p{
+    background-color: darkgoldenrod;
+}
+
+/* This select all the siblings */
+h2 ~ p{
+ background-color: lawngreen;
+}
+
+/* the * is any element selector */
+section *{
+    border-top: 7px;
+}
+
+/* CLASS SELECTOR  */
+h2.one{
+    color: brown;
+}
+
+.one{
+    color: yellow;
+}
+
+h2.one{
+    color: sienna;
+}
+
+section .one{
+    font-size: 33;
+    color: blue;
+}
+
+ul li{
+    border: 10px solid red ;
+}
+/* Pseudoclass selector */
+ul :first-child{
+    border: 10px double green;
+}
+
+ul>:nth-child(even){
+    border: 10px double sandybrown;
+}
+ul>:nth-child(odd){
+    border: 13th solid blue;
+} 
+
+ul>:nth-child(2n+2){
+    border: 13px dotted yellowgreen;
+}
+
+ul>:first-child, ul>:last-child{
+    border: 17px ridge blue;
+}
+
+li:first-child{
+    background-color: khaki;
+}
+
+li:last-child{
+   background-color: cadetblue; 
+}
+
