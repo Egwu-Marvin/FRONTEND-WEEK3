@@ -1,5 +1,5 @@
 section:first-of-type{
-    background: linear-gradient(90deg, green 33%, yellow 33%, yellow 67%, red 67%);
+    background: linear-gradient(180deg, rgb(179, 17, 17) 28%, white 28%, white 33%, navy 33%, navy 62%, white 62%, white 67%, green 67%);
 }
 
 section:nth-of-type(2){
@@ -15,43 +15,21 @@ section:nth-of-type(4){
 }
 
 section:nth-of-type(5){
-    background: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
+    background: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, tomato 67%);
 }
 
 section:nth-of-type(6){
-    background: linear-gradient(90deg, blue 33%, white 33%, white 67%, red 67%);
+    background: linear-gradient(90deg, navy 33%, white 33%, white 67%, tomato 67%);
+    
+    
 }
 
 section:nth-of-type(7){
     background: linear-gradient(90deg, green 33%, red 33%, red 67%, yellow 67%);
+
+
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section:nth-of-type(){
-    background: radial-gradient(circle, white 20%, blue 30%);
-}
-
-section:nth-of-type(){
-    background: radial-gradient(circle, white 30%, purple 30%);
-}
 
 

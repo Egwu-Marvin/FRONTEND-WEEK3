@@ -1,0 +1,48 @@
+body>:first-child{
+    background-image: url(../img/special7.jpg);
+    background-size: contain;
+    background-repeat: round;
+    
+}
+
+body>:nth-child(2){
+    background-image: url(../img/special6.jpg);
+    background-size: 400px;
+    background-repeat: round;
+
+}
+
+body>:nth-child(3){
+    background-image: url(../img/special2.jpg), url(../img/special5.jpg);
+    background-size: 250px, 250px;
+    background-position: left, bottom right;
+    background-repeat: no-repeat;
+}
+
+body>:nth-child(4){
+    background-image: url(../img/deesh-bag.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body>:nth-child(5) {background-image: url(../img/cheat.png);
+    background-size: 600px;
+    background-repeat: space;
+    background-position: center;
+}
+
+body>:nth-child(6) {
+    background: red ;
+    background-image: url(../img/china\ work.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+body>:nth-child(7){
+    background: red;
+    background-image: url(../img/yellowStarbg.png), url(../img/yellowStarbgRight1.png), url(../img/yellowStarbgLeft.png), url(../img/yellowStarbg.png), url(../img/yellowStarbgRight1.png);
+    background-size: 100px, 30px, 30px, 30px, 30px;
+    background-repeat: no-repeat;
+    background-position: 20px 30px, 120px 20px, 150px 60px, 150px 95px, 120px 130px;
+}
