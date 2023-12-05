@@ -1,0 +1,68 @@
+h1{
+    font-weight: bold;
+    text-shadow: 3px 3px 14px  red;
+} 
+
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column2{
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 3px 7px white;
+    color:  white;
+    text-shadow: 3px 2px 13px red;
+}
+
+.about{
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 5px 3px 14px red;
+    color:  white;
+}
+
+.Skill{
+    font-weight: bold;
+    /* font-size: 33px; */
+    /* text-align: justify; */
+}
+
+Skill:nth-of-type(){
+    text-shadow: 5px 3px 7px tomato;
+}
+
+.w3-text-light-grey{
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 5px 3px 14px red;
+    color:  white;
+}
+
+.bar{
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 5px 3px 14px red;
+    color:  white;
+}
